@@ -5,12 +5,12 @@ A BrainFuck interpreter written in Haskell
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 
 # Ascii addition
-,>,[<+>-]<.
-Input: 56
-Output: k
+,>,[<+>-]<.  
+Input: 56  
+Output: k  
 Explanation: Ascii value of 5 = 53 and ascii value of 6 = 54, so adding them is 107 which is the ascii value for k
 
 # Read two bytes, and write them
-,>,<.>.
-Input: xy
-Output: xy
+,>,<.>.  
+Input: xy  
+Output: xy  
