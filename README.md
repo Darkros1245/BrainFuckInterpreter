@@ -1,5 +1,5 @@
 # BrainFuckInterpreter
-A BrainFuck interpreter written in Haskell
+A simple BrainFuck interpreter written in Haskell
 
 # Hello, World!
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
