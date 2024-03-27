@@ -41,10 +41,10 @@ interpret s = interpret' s 0 [0 | _ <- [1..dataLength]] 0
                 interpret' instructions (moveRight ip) _data dp
 
 moveRight :: Int -> Int
-moveRight p = p + 1
+moveRight p = mod (p + 1) 256
 
 moveLeft :: Int -> Int
-moveLeft p = p - 1
+moveLeft p = mod (p - 1) 256
 
 inc :: [Int] -> Int -> [Int]
 inc _data dp = [(\(x', i') -> if i' == dp then x' + 1 else x') x | x <- (zip _data [0..])]
